@@ -7,7 +7,32 @@ import CanvasLoader from "../Loader"
 const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
-    <div>Computers</div>
+    <mesh>
+      <hemisphereLight intensity={0.15} groundColor="black" />
+      <printLight intensity={1} />
+      <primitive object = {computer.scene} />
+    </mesh>
+  )
+}
+
+const ComputersCanvas = () => {
+  return (
+    <Canvas 
+      frameLoop = "demand"
+      shadows
+      camera={{position: [20, 3, 5], fov: 25}}
+      gl={ {preserveDawingBuffer:true} }
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls 
+         ennableZoom={false}
+         maxPolarAngle={Math.PI / 2}
+         minPolarAngle={Math.PI / 2}
+        />
+        <Computers />
+      </Suspense>
+      <Preload all />
+    </Canvas>
   )
 }
 
