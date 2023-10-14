@@ -14,7 +14,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I am <span className='text-[#915eff]'>Ezechiel</span></h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            I develop user interfaces, data <br className='sm:block hidden' /> visualizations and web applications.
+            I develop web applications, data <br className='sm:block hidden' /> analysis and visualizations.
           </p>
         </div>
       </div>
@@ -22,7 +22,7 @@ const Hero = () => {
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.dev 
+            <motion.dev
               animate = {{
                 y:[0, 24, 0]
               }}
