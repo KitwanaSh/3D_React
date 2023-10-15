@@ -12,19 +12,30 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    sql,
     git,
     figma,
     docker,
+    jupyter,
+    tableau,
+    python,
     meta,
     starbucks,
     tesla,
     shopify,
+    somul,
+    bzzworld,
+    confidential,
+    mest,
     carrent,
     jobit,
     tripguide,
     threejs,
+    electricity,
+    newprompt,
+    ab,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -39,26 +50,26 @@ import {
       title: "Contact",
     },
   ];
-  
+
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Analyst",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Creative Thinker",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Tech Writer",
       icon: creator,
     },
   ];
-  
+
   const technologies = [
     {
       name: "HTML 5",
@@ -82,7 +93,7 @@ import {
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: sql,
     },
     {
       name: "Tailwind CSS",
@@ -90,7 +101,7 @@ import {
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      icon: python,
     },
     {
       name: "MongoDB",
@@ -106,160 +117,163 @@ import {
     },
     {
       name: "figma",
-      icon: figma,
+      icon: tableau,
     },
     {
       name: "docker",
-      icon: docker,
+      icon: jupyter,
     },
   ];
-  
+
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Database Manager",
+      company_name: "Bzzworld",
+      icon: bzzworld,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2020 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Updating daily work activities into the database.",
+        "Control the store activities to avoid misleading information.",
+        "Write daily, weekly report then montly report to the manager.",
+        "Collaborating with cross-functional teams including marketing and assistant manager for sales performance.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Tech Co-founder",
+      company_name: "SOMUL-Tech",
+      icon: confidential,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jun 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing web-base and excel Systems for small businesses and Schools.",
+        "Printing high-quality documents and posts.",
+        "Making and editing event media using adobe master collection.",
+        "Collaborating and Working with my confunder to scale our business by doing marketing and decision-making.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Security Analyst and Frontend Dev",
+      company_name: "Private Security Force",
+      icon: somul,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mai 2023 - Jully 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Updating the website content from Russian Language to English",
+        "Developing interactive and Web dashbords.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analysing activities occuring in the website and preventing pontention attacts.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Entrepreneur In Training",
+      company_name: "MEST",
+      icon: mest,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sept 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web and mobile applications using Angular.js, Flutter and other related technologies.",
+        "Collaborating with cross-functional tallents (Future co-founders, colleague EITs) including designers, product managers, and other developers to help each other grow professionally.",
+        "Learn and practice communication, critical thinking, problem solving and other related softkills.",
+        "Participating in code reviews, hackathons and capstones for rapid growth mindset.",
       ],
     },
   ];
-  
+
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "5 Ways Of Data Acquisition In Python. 'You can be surprised'. Being able to find the data that you want for your analysis",
+      name: "Kitwana",
+      designation: "Blog",
+      company: "Python",
+      image: "https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png",
+      link: "https://medium.com/@rodriguekitweze/5-ways-of-data-acquisition-in-python-you-can-be-surprised-c5e98ae0167b",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Regression Analysis (Understand it better). This method that allows us to examine the relationship between one or more explanatory variables",
+      name: "Kitwana",
+      designation: "Blog",
+      company: "Statistics",
+      image: "https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png",
+      link: "https://medium.com/@rodriguekitweze/regression-analysis-understand-it-better-7ddb1906a243",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Exploratory Data Analysis Using Python. EDA can help you find patterns, outliers, correlations and other insights from your data",
+      name: "Kitwana",
+      designation: "Blog",
+      company: "Python",
+      image: "https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png",
+      link: "https://medium.com/@rodriguekitweze/practical-exploratory-data-analysis-fb93abf6b26e",
     },
   ];
-  
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "Electicity Consumption",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a dashboard story project. I designed this interactive story to expplain how different category of people had access to electricity over the years. The last slide in this story is a dashboard giving you the right to explore it the way you feel.",
+      tags: [
+        {
+          name: "Tebleau",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flourish",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: electricity,
+      source_code_link: "https://public.tableau.com/app/profile/kitwana.shebabetsi.ezechiel/viz/Animate_a_datastory_Midterm_Project/Energy_story",
+    },
+    {
+      name: "AI new prompt",
+      description:
+        "Web application that enables users to search for latest news from top article posters like BBC, CNN, BBC, WIRED using voice recognition API from allan-ai. You can use a voice prompt after clicking the alan button and receive results from the news API.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "alan-ai",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: newprompt,
+      source_code_link: "https://github.com/KitwanaSh/ai-news-prompt",
     },
     {
-      name: "Trip Guide",
+      name: "Test Analysis",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "For this project, statistical models to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who convert.",
       tags: [
         {
-          name: "nextjs",
+          name: "jupyter notebook",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "statistics",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "python",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ab,
+      source_code_link: "https://github.com/KitwanaSh/Data-Analyst-Projects/tree/main/2_Analyze_AB_test_resutls",
     },
   ];
-  
+
   export { services, technologies, experiences, testimonials, projects };
