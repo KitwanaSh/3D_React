@@ -20,15 +20,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import jupyter from "./tech/jupyter.png";
+import tableau from "./tech/tableau.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bzzworld from "./company/bzzworld.png"
+import somul from "./company/confidential.png"
+import confidential from "./company/somul.png"
+import mest from "./company/mest.png"
 
 import carrent from "./carrent.png";
+import electricity from "./electricity.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import newprompt from "./newprompt.jpg"
+import ab from  "./ab.jpg";
 
 export {
   logo,
@@ -41,7 +52,11 @@ export {
   close,
   css,
   docker,
+  jupyter,
+  tableau,
   figma,
+  python,
+  sql,
   git,
   html,
   javascript,
@@ -54,9 +69,16 @@ export {
   threejs,
   meta,
   shopify,
+  bzzworld,
+  somul,
+  confidential,
+  mest,
   starbucks,
   tesla,
   carrent,
   jobit,
   tripguide,
+  electricity,
+  newprompt,
+  ab,
 };

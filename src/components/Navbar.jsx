@@ -22,10 +22,10 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt = "logo" className="w-9 h-9 object-contain" />
+          <a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank"><img src={logo} alt = "logo" className="w-9 h-9 object-contain" /></a>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Ezechiel &nbsp;
-            <span className='sm:block hidden'>| JS Developer</span>
+            <a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">Ezechiel</a> &nbsp;
+            <span className='sm:block hidden'><a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">| JS Developer</a></span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

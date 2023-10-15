@@ -31,7 +31,7 @@ const Contact = () => {
     setLoading(true)
 
     emailjs.send(
-      'service_dsedhth', 
+      'service_dsedhth',
       'template_yj006rz',
        {
         from_name: form.name,
@@ -53,7 +53,7 @@ const Contact = () => {
       })
     }, (error) => {
       setLoading(false)
-      
+
       console.log(error)
 
       alert("Something went wrong.")
@@ -109,7 +109,7 @@ const Contact = () => {
             />
           </label>
           <button type="submit"
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            className='bg-tertiary py-3 px-8 outline-none w-fit hover:text-tertiary hover:bg-white text-white font-bold shadow-md shadow-primary rounded-xl'
           >{loading ? "Sending..." : "Send"}</button>
 
         </form>
