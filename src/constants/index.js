@@ -159,10 +159,10 @@ import {
       iconBg: "#383E56",
       date: "Mai 2023 - Jully 2023",
       points: [
-        "Updating the website content from Russian Language to English",
+        "Updating the website content from a confidential Language to French",
         "Developing interactive and Web dashbords.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Analysing activities occuring in the website and preventing pontention attacts.",
+        "Analysing activities occuring in the website and preventing potential attacts.",
       ],
     },
     {
