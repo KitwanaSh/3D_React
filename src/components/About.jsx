@@ -49,12 +49,6 @@ const About = () => {
         to life.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
-
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
@@ -68,6 +62,12 @@ const About = () => {
       I want to create an educational system that is more relevant to the needs of the 21st century workforce. I want to create a system
       that teaches students how to think critically, solve problems, and be creative.
       </motion.p>
+
+      <div className='mt-20 flex flex-wrap gap-10'>
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
     </>
   )
 }
