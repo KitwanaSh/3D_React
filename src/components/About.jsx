@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
       >
-        I am a skilled frontend developer with expertise in JavaScript and React.
+        I am a skilled Software Engineer with expertise in Django and React.
         I am also a data analyst with expertise in python, jupyter notebook, Tableau, SQL, flourish,... I am also skilled
         in softkils like: creative thinking, problem solving and developement. Let's work together to bring you ideas
         to life.
