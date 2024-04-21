@@ -53,7 +53,7 @@ import {
 
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
@@ -153,16 +153,16 @@ import {
       ],
     },
     {
-      title: "Security Analyst and Frontend Dev",
+      title: "Digital Forensics Analyst",
       company_name: "Private Security Force",
       icon: somul,
       iconBg: "#383E56",
       date: "Mai 2023 - Jully 2023",
       points: [
-        "Updating the website content from a confidential Language to French",
-        "Developing interactive and Web dashbords.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Analysing activities occuring in the website and preventing potential attacts.",
+        "Decryting system content to french",
+        "Assess codebase for specific usability.",
+        "Doing deep research to get or decline hypothetical evidences.",
+        "Analysing activities occuring in the systems and preventing potential attacts.",
       ],
     },
     {
@@ -172,10 +172,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Sept 2023 - Present",
       points: [
-        "Developing and maintaining web and mobile applications using Angular.js, Flutter and other related technologies.",
+        "Developing and maintaining web and mobile applications using modern programming languages / framework",
         "Collaborating with cross-functional tallents (Future co-founders, colleague EITs) including designers, product managers, and other developers to help each other grow professionally.",
         "Learn and practice communication, critical thinking, problem solving and other related softkills.",
-        "Participating in code reviews, hackathons and capstones for rapid growth mindset.",
+        "Idiate, research for hypothetical problem and create software businesses based on the valited ideas.",
       ],
     },
   ];
