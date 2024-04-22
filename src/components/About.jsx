@@ -43,22 +43,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
       >
-        I am a skilled Software Engineer with expertise in Django and React.
-        I am also a data analyst with expertise in python, jupyter notebook, Tableau, SQL, flourish,... I am also skilled
-        in softkils like: creative thinking, problem solving and developement. Let's work together to bring you ideas
-        to life.
+      I am a skilled Software Engineer with expertise in frameworks like Django and React. I am also a data and digital forensics analyst with expertise in cellebrite, Autopsy, magnet AXIOM, python, Tableau, …
+      With the technical experiences I held for the past 3 years, I developed other kills like: creative thinking, problem solving, analytical research, empathy, and communication.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
       >
-      We were taught from a young age to follow a certain path: go to school, get a good job, get a loan, buy a house, and have kids.
-      And then we put our kids through the same system.
-      I'm breaking the circle of the traditional educational system by becoming an entrepreneur. I'm not interested in following the path
-      that's been laid out for me. I want to create my own path and solve the problems that modern education has.
       The traditional educational system is outdated and doesn't prepare students for the real world. It's too focused on memorizing
-      facts and figures, and not enough on critical thinking and problem-solving skills.
+      facts and figures, but not enough on critical thinking and problem-solving skills.
       I want to create an educational system that is more relevant to the needs of the 21st century workforce. I want to create a system
       that teaches students how to think critically, solve problems, and be creative.
       </motion.p>
