@@ -19,6 +19,7 @@ import {
     jupyter,
     tableau,
     python,
+    django,
     meta,
     starbucks,
     tesla,
@@ -84,8 +85,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "django",
+      icon: django,
     },
     {
       name: "React JS",

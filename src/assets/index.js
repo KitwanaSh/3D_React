@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import jupyter from "./tech/jupyter.png";
 import tableau from "./tech/tableau.png";
 import python from "./tech/python.png";
+import django from "./tech/django.png";
 import sql from "./tech/sql.png"
 
 import meta from "./company/meta.png";
@@ -56,6 +57,7 @@ export {
   tableau,
   figma,
   python,
+  django,
   sql,
   git,
   html,
