@@ -24,8 +24,8 @@ const Navbar = () => {
         >
           <a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank"><img src={logo} alt = "logo" className="w-9 h-9 object-contain" /></a>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            <a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">Ezechiel</a> &nbsp;
-            <span className='sm:block hidden'><a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">| JS Developer</a></span>
+            <a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">zechiel</a> &nbsp;
+            <span className='sm:block hidden'><a href="https://www.linkedin.com/in/kiwanasheb/" target="__blank">| FS Engineer</a></span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

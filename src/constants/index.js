@@ -54,11 +54,11 @@ import {
 
   const services = [
     {
-      title: "React",
+      title: "Web",
       icon: web,
     },
     {
-      title: "Data Analyst",
+      title: "Data Science",
       icon: mobile,
     },
     {
@@ -66,7 +66,7 @@ import {
       icon: backend,
     },
     {
-      title: "Tech Writer",
+      title: "AI Researcher",
       icon: creator,
     },
   ];
@@ -128,7 +128,7 @@ import {
 
   const experiences = [
     {
-      title: "Database Manager",
+      title: "Data Manager",
       company_name: "Bzzworld",
       icon: bzzworld,
       iconBg: "#383E56",
@@ -149,34 +149,32 @@ import {
       points: [
         "Developing web-base and excel Systems for small businesses and Schools.",
         "Printing high-quality documents and posts.",
-        "Making and editing event media using adobe master collection.",
-        "Collaborating and Working with my confunder to scale our business by doing marketing and decision-making.",
+        "Making and editing event media using adobe master collection...",
       ],
     },
     {
-      title: "Digital Forensics Analyst",
-      company_name: "Private Security Force",
+      title: "IT Support",
+      company_name: "Zanner High-School",
       icon: somul,
       iconBg: "#383E56",
-      date: "Mai 2023 - Jully 2023",
+      date: "September 2021 - November 2021",
       points: [
-        "Decryting system content to french",
-        "Assess codebase for specific usability.",
-        "Doing deep research to get or decline hypothetical evidences.",
-        "Analysing activities occuring in the systems and preventing potential attacts.",
+        "Build and maintain shool systems",
+        "Develop Transcript automation system",
+        "Train teachers and secretaries on how to use the system",
       ],
     },
     {
-      title: "Entrepreneur In Training",
+      title: "Software Entrepreneur",
       company_name: "MEST",
       icon: mest,
       iconBg: "#E6DEDD",
       date: "Sept 2023 - Present",
       points: [
         "Developing and maintaining web and mobile applications using modern programming languages / framework",
-        "Collaborating with cross-functional tallents (Future co-founders, colleague EITs) including designers, product managers, and other developers to help each other grow professionally.",
-        "Learn and practice communication, critical thinking, problem solving and other related softkills.",
-        "Idiate, research for hypothetical problem and create software businesses based on the valited ideas.",
+        "Collaborating with cross-functional tallents (co-founders, colleague EITs) including designers, product managers, and other developers.",
+        "Build Cutting-edge (including AI systems) software solutions that solve real-world problems.",
+        "Ship products to production as business.",
       ],
     },
   ];
@@ -255,16 +253,16 @@ import {
       source_code_link: "https://github.com/KitwanaSh/ai-news-prompt",
     },
     {
-      name: "Test Analysis",
+      name: "Predicitve Model",
       description:
-        "For this project, statistical models to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who convert.",
+        "This project is a predictive model that predicts when a machine in a house will break down. The model is trained using a dataset that contains the machine's placement, sound, and other features.",
       tags: [
         {
           name: "jupyter notebook",
           color: "blue-text-gradient",
         },
         {
-          name: "statistics",
+          name: "Streamlit",
           color: "green-text-gradient",
         },
         {

@@ -43,18 +43,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
       >
-      I am a skilled Software Engineer with expertise in frameworks like Django and React. I am also a data and digital forensics analyst with expertise in cellebrite, Autopsy, magnet AXIOM, python, Tableau, …
-      With the technical experiences I held for the past 3 years, I developed other kills like: creative thinking, problem solving, analytical research, empathy, and communication.
+      I am a Software Engineer with expertise in frameworks like Django and React. I build Artificial Intelligence systems, web applications, and other software solutions.
+      I am passionate about creating innovative solutions that solve real-world problems.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'
       >
-      The traditional educational system is outdated and doesn't prepare students for the real world. It's too focused on memorizing
-      facts and figures, but not enough on critical thinking and problem-solving skills.
-      I want to create an educational system that is more relevant to the needs of the 21st century workforce. I want to create a system
-      that teaches students how to think critically, solve problems, and be creative.
+      I am also an AI researcher and data scienting, working on projects that involve Natural Language Processing, Computer Vision, and Machine Learning.
+      My research in AI space are usally focused on AI ethics, fairness, and transparency.
+      I believe that AI should be developed and deployed in a way that is fair, transparent, and accountable.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
